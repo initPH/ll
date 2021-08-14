@@ -9,9 +9,6 @@ body {
 }
 
 #div2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url('../image/bg.webp');
 
   position: fixed;
@@ -24,6 +21,7 @@ body {
 
   height: 100vw;
 
+  /* min-width: 1000rem; */
 
   z-index: -10;
 
@@ -48,6 +46,17 @@ body {
 
   height: 200rem;
 
+  position: fixed;
+
+  left: 0;
+
+  right: 0;
+
+  top: 0;
+
+  bottom: 0;
+
+  margin: 80rem auto;
 
   transform-style: preserve-3d;
   /*表示所有子元素在3D空间中呈现*/
